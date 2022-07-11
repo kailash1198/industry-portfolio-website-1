@@ -332,3 +332,228 @@ a {
 #feature .container .box:hover .card p {
     color: white;
 }
+
+
+/* ============ FAQ SECTION ============  */
+
+#faq {
+    width: 100vw;
+    height: 90vh;
+    background-color: rgba(128, 128, 128, 0.08);
+}
+
+#faq .container {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#faq .container .box {
+    margin: 0rem 1rem;
+}
+
+#faq .container .box1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#faq .container .box .box-container .content-card h3 {
+    margin: 0.5rem 0rem;
+}
+
+#faq .container .box .box-container .content-card p {
+    margin: 0.4rem 0rem;
+    color: gray;
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+#faq .container .box .box-container .content-card .special-style {
+    margin: 1rem 0rem;
+    padding: 0.5rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+#faq .container .box .box-container .content-card i {
+    color: white;
+    background-color: brown;
+    padding: 0.2rem 0.3rem;
+    border-radius: 50%;
+    margin: 0rem 0.5rem;
+}
+
+
+/* ================= TESTIMONIALS ================  */
+
+#testimonials {
+    width: 100%;
+    padding: 2rem 0rem;
+}
+
+#testimonials .container {
+    width: 90%;
+    margin: auto;
+}
+
+#testimonials .container .box {
+    width: 70%;
+    margin: auto;
+}
+
+#testimonials .container .box .testimonials-header {
+    text-align: center;
+}
+
+#testimonials .container .box .testimonials-header p {
+    color: gray;
+    font-weight: 300;
+    margin: 0.5rem 0rem;
+}
+
+#testimonials .container .box .testimonials-header .special-color {
+    color: rgb(239, 33, 174);
+}
+
+#testimonials .container .box .testimonials-content {
+    text-align: center;
+    padding: 5rem 0rem;
+}
+
+#testimonials .container .box .testimonials-content img {
+    display: block;
+    margin: auto;
+}
+
+#testimonials .container .box .testimonials-content h4 {
+    padding: 0.5rem 0rem;
+}
+
+#testimonials .container .box .testimonials-content p {
+    padding: 0.5rem 0rem;
+    line-height: 1.6;
+    font-weight: 300;
+    color: rgba(128, 128, 128, 0.698);
+}
+
+
+/* ============== CONTACT SECTION =========  */
+
+#contact {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./images/contact-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#contact .container {
+    width: 80%;
+    margin: auto;
+    padding: 3rem 0rem;
+}
+
+#contact .container .box {
+    width: 50%;
+}
+
+#contact .container .box .content-card h1 {
+    padding: 1rem 0rem;
+}
+
+#contact .container .box .content-card p {
+    padding: 1rem 0rem;
+    font-weight: 300;
+    color: rgb(128, 128, 128);
+    font-size: 0.8rem;
+    line-height: 1.8;
+}
+
+#contact .container .box .contact-form .form-container form {
+    display: flex;
+}
+
+#contact .container .box .contact-form .form-container form input {
+    margin: 0.5rem;
+    padding: 1rem;
+    border: none;
+}
+
+#contact .container .box .contact-form .form-container .btn-box {
+    margin: 2rem 0rem;
+}
+
+#contact .container .box .contact-form .form-container a {
+    text-decoration: none;
+    margin: 1rem;
+    background-color: orangered;
+    color: white;
+    padding: 0.7rem 1rem;
+    border-radius: 0.1rem;
+    font-size: 0.7rem;
+    transition: all 0.7s;
+}
+
+#contact .container .box .contact-form .form-container a:hover {
+    background-color: black;
+}
+
+
+/* ================= TEAM ==============  */
+
+#team {
+    width: 100%;
+    padding: 2rem 0rem;
+}
+
+#team .container {
+    width: 90%;
+    margin: auto;
+}
+
+#team .container .team-header {
+    width: 100%;
+    padding: 2rem 0rem;
+}
+
+#team .container .team-header p {
+    color: gray;
+    padding: 0.5rem 0rem;
+}
+
+#team .container .team-header .special-color {
+    color: rgb(239, 33, 174);
+}
+
+#team .container .team-card-container {
+    display: flex;
+    justify-content: center;
+}
+
+#team .container .team-card-container .card {
+    margin: 0rem 0.5rem;
+}
+
+#team .container .team-card-container .card img {
+    width: 100%;
+}
+
+#team .container .team-card-container .card p {
+    padding: 0.5rem 0rem;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 300;
+    color: gray;
+}
+
+#team .container .team-card-container .card a {
+    color: orangered;
+    text-decoration: underline;
+}
+
+
+/* =============== FOOTER ===============  */
