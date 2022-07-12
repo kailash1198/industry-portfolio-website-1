@@ -557,3 +557,64 @@ a {
 
 
 /* =============== FOOTER ===============  */
+
+footer {
+    width: 100%;
+    padding: 2rem 0rem;
+    background-color: rgba(0, 0, 0, 0.895);
+    color: white;
+}
+
+footer .container {
+    width: 90%;
+    margin: auto;
+}
+
+footer .container .box {
+    width: 100%;
+}
+
+footer .container .box1 {
+    border-bottom: 1px solid white;
+    padding: 3rem 0rem;
+}
+
+footer .container .box1 .box-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .container .box1 .box-container .mini-box ul {
+    display: flex;
+}
+
+footer .container .box1 .box-container .mini-box ul li {
+    list-style: none;
+    margin: 0rem 0.5rem;
+}
+
+footer .container .box1 .box-container .mini-box ul li a {
+    color: white;
+}
+
+footer .container .box2 .box-container {
+    display: flex;
+    padding: 1.5rem 0rem;
+}
+
+footer .container .box2 .box-container .mini-box {
+    width: 100%;
+}
+
+footer .container .box2 .box-container .mini-box input {
+    padding: 0.5rem;
+    border-radius: 0.1rem;
+    border: none;
+}
+
+footer .container .box2 .box-container .mini-box button {
+    padding: 0.5rem;
+    border-radius: 0.1rem;
+    border: none;
+}
