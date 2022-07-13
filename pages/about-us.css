@@ -1,0 +1,213 @@
+/* font-family: 'Roboto', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* ============== NAVBAR ============  */
+
+#nav {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 1rem 0rem;
+}
+
+#nav .container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#nav .container .box .box-container {
+    width: 100%;
+}
+
+#nav .container .box .box-container ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav .container .box .box-container ul li {
+    margin: 0rem 0.5rem;
+}
+
+#nav .container .box .box-container ul li a {
+    font-size: 0.8rem;
+}
+
+#nav .container .box .box-container .icon i {
+    margin: 0rem 0.5rem;
+    color: rgba(128, 128, 128, 0.518);
+}
+
+
+/* ========= COMPANY OVERVIEW =========  */
+
+#cmp-overview {
+    width: 100%;
+    padding: 3rem 0rem;
+}
+
+#cmp-overview .container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cmp-overview .container .box {
+    width: 100%;
+    margin: 0rem 2rem;
+}
+
+#cmp-overview .container .box .box-container {
+    width: 100%;
+}
+
+#cmp-overview .container .box .box-container .heading {
+    padding: 1rem 0rem;
+}
+
+#cmp-overview .container .box .box-container .heading p {
+    color: gray;
+    font-weight: 300;
+    padding: 0.5rem 0rem;
+}
+
+#cmp-overview .container .box .box-container .content {
+    padding: 1rem 0rem;
+}
+
+#cmp-overview .container .box .box-container .content p {
+    padding: 0.5rem 0rem;
+    line-height: 1.6;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.818);
+}
+
+#cmp-overview .container .box .box-container img {
+    width: 100%;
+    padding: 3rem;
+}
+
+
+/* ================== SHOWCASE ============  */
+
+#showcase {
+    width: 100%;
+    padding: 4rem 0rem;
+    background-image: url(../images/about-fix-bg.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#showcase .container {
+    width: 90%;
+    margin: auto;
+    color: white;
+}
+
+#showcase .container .box {
+    width: 100%;
+}
+
+#showcase .container .box .heading {
+    padding: 1rem 0rem;
+    text-align: center;
+}
+
+#showcase .container .box .heading h1 {
+    padding: 0.5rem 0rem;
+}
+
+#showcase .container .box2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 0rem;
+    text-align: center;
+}
+
+#showcase .container .box2 h1 {
+    padding: 0.7rem 0rem;
+}
+
+
+/* =================== FEATURE ============   */
+
+#feature {
+    width: 100%;
+    padding: 2rem 0rem;
+}
+
+#feature .container {
+    width: 90%;
+    margin: auto;
+}
+
+#feature .container .box {
+    width: 100%;
+}
+
+#feature .container .box .box-container {
+    width: 100%;
+}
+
+#feature .container .box .box-container .heading {
+    text-align: center;
+    padding: 2rem 0rem;
+}
+
+#feature .container .box .box-container .heading p {
+    color: gray;
+    font-weight: 300;
+    padding: 0.5rem 0rem;
+}
+
+#feature .container .box .box-container .card-container {
+    width: 100%;
+    display: flex;
+}
+
+#feature .container .box .box-container .card-container .card {
+    margin: 1rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+#feature .container .box .box-container .card-container .card h3 {
+    padding: 1rem 0rem;
+}
+
+#feature .container .box .box-container .card-container .card p {
+    font-weight: 300;
+    line-height: 1.7;
+    color: rgba(0, 0, 0, 0.789);
+}
+
+#feature .container .box .box-container .card-container .card i {
+    padding: 1rem;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+
+
+/* ================= HISTORY ============  */
